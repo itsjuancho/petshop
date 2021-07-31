@@ -18,3 +18,8 @@ window.addEventListener('resize', () => {
         menu.style.display = '';
     }
 });
+
+window.addEventListener('DOMContentLoaded', () => {
+    console.log(`Ancho: ${window.innerWidth}`);
+    console.log(`Alto: ${window.innerHeight}`);
+});

@@ -361,7 +361,7 @@ footer p {
     display: none;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 480px) {
     header .menu ul {
         display: none;
         flex-direction: column;
@@ -383,6 +383,10 @@ footer p {
     .newsletter {
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .banner {
+        height: 440px;
     }
 
     .info {
