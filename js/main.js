@@ -20,6 +20,5 @@ window.addEventListener('resize', () => {
 });
 
 window.addEventListener('DOMContentLoaded', () => {
-    console.log(`Ancho: ${window.innerWidth}`);
-    console.log(`Alto: ${window.innerHeight}`);
+    alert(`Ancho: ${window.innerWidth}px | Alto: ${window.innerHeight}px`);
 });

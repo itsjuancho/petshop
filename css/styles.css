@@ -311,7 +311,7 @@ footer p {
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     .productos .tarjetas {
         flex-direction: column;
         align-items: center;
@@ -412,7 +412,7 @@ footer p {
     }
 }
 
-@media (min-width: 481px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     header .menu ul {
         display: none;
         flex-direction: column;
@@ -459,7 +459,7 @@ footer p {
     }
 }
 
-@media (min-width: 800px) and (max-width: 1050px){
+@media screen and (min-width: 800px) and (max-width: 1050px){
     .productos .tarjetas {
         align-items: center;
         padding: 3% 15% 5% 11%;
