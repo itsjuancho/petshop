@@ -10,3 +10,5 @@
 - Valentin Villa 
 - Juan Troncoso
 - Juan Andrés Pérez
+
+**Live deploy:** [itsjuancho.github.io/petshop/](https://itsjuancho.github.io/petshop/)
