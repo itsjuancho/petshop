@@ -66,8 +66,10 @@ header .menu img {
     margin-left: 8%;
 }
 
-section .banner img {
-    position: relative;
+section .banner {
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 80vh;
     width: 100%;
 }
