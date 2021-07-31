@@ -11,3 +11,10 @@ navResponsive.addEventListener('click', () => {
         menu.style.display = 'none';
     }
 });
+
+window.addEventListener('resize', () => {
+    var w = window.innerWidth;
+    if (w >= 769 && menu.style.display == "none") {
+        menu.style.display = '';
+    }
+});
