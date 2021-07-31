@@ -1,12 +1,12 @@
-# Petshop — Trabajo CTD F1 Grupo 4
+# Petshop — Trabajo CTD F1 Grupo 1
 
-**Fecha:** Viernes 24 de Julio, 2021 (clase 11)
-**Tema aplicado al diseño:** Flexbox
+**Fecha:** Viernes 30 de Julio, 2021 (clase 15)
+**Tema aplicado al diseño:** Responsive Design
 
 **Integrantes:**
-- Fabio Sebastian Boschetti
-- Manuel Mao
-- Ezequiel Forte
-- Jaled Jara
-- Sebastián Amprimo
+- Geraldine Brussa
+- Adriana Durand (F)
+- Javier Vazquez
+- Valentin Villa 
+- Juan Troncoso
 - Juan Andrés Pérez
