@@ -72,23 +72,28 @@ section .banner {
     background-size: cover;
     height: 80vh;
     width: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 section .banner .listBanner {
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-    align-content: space-between;
-    margin-right: 15%;
-    top: 40%;
-    left: 60%;
+    justify-content: space-between;
+    align-items: center;
+    height: 20%;
+    /* top: 40%;
+    left: 60%; */
     position: absolute;
 }
 
 section .banner .listBanner p {
-    margin-bottom: 35px;
+    /* margin-bottom: 35px; */
+    /* margin: 2rem; */
 }
 
 section .banner .listBanner #firstElement {
@@ -99,16 +104,16 @@ section .banner .listBanner #firstElement {
 }
 
 section .banner .listBanner #secondElement {
-    margin-right: 25%;
+    margin-top: 1.2rem;
 }
 
 section .banner .listBanner #btnElement {
+    margin-top: 1.2rem;
     background-color: #f0A83E;
     padding: 18px;
     border-radius: 10px 10px 10px 10px;
     font-size: 15px;
     color: #fff;
-    margin-right: 32%;
 }
 
 .productos {
@@ -309,6 +314,7 @@ footer p {
 @media (max-width: 800px) {
     .productos .tarjetas {
         flex-direction: column;
+        align-items: center;
     }
 
     .productos .tarjetas .tarjeta {
@@ -349,4 +355,113 @@ footer p {
 
 .info .logo-info {
     margin-right: 70px;
+}
+
+.menu-responsive {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    header .menu ul {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 115px;
+        position: absolute;
+        z-index: 999;
+        background-color: #F0A83E;
+        width: 100%;
+        height: 6.5rem;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    }
+
+    header .menu .menu-responsive {
+        display: block;
+        margin-right: 3rem;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info {
+
+    }
+
+    .info .locations .items {
+        padding: 24px 13px 20px 0px;
+    }
+
+    .info .logo-info {
+        margin-top: 1rem;
+        order: -1;
+        align-self: center;
+    }
+
+    .contacto .form {
+        padding: 2% 17% 5% 18%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    header .menu ul {
+        display: none;
+        flex-direction: column;
+        justify-content: space-evenly;
+        top: 115px;
+        position: absolute;
+        z-index: 999;
+        background-color: #F0A83E;
+        width: 100%;
+        height: 6.5rem;
+        box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+    }
+
+    header .menu .menu-responsive {
+        display: block;
+        margin-right: 3rem;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .info {
+
+    }
+
+    .info .locations .items {
+        padding: 24px 13px 20px 0px;
+    }
+
+    .info .logo-info {
+        margin-top: 1rem;
+        order: -1;
+        align-self: center;
+    }
+
+    .contacto .form {
+        padding: 2% 17% 5% 18%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1050px){
+    .productos .tarjetas {
+        align-items: center;
+        padding: 3% 15% 5% 11%;
+    }
+
+    .contacto .form {
+        padding: 2% 30% 5% 30%;
+    }
 }
